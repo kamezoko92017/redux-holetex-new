@@ -12,7 +12,7 @@ const todoListReducer = (state = initState, action) => {
     switch (action.type) {
         case 'todoList/addTodo':
             return [
-                ...state.todoList,
+                ...state,
                 action.payLoad
             ]
         default:
