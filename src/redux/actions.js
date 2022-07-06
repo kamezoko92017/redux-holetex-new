@@ -24,3 +24,11 @@ export const searchFilterChange = (text) => {
         payLoad: text
     }
 }
+
+//Taọ ra action khi user nhập search bằng status
+export const statusFilterChange = (status) => {
+    return {
+        type: 'filters/statusFilterChange',
+        payLoad: status
+    }
+}

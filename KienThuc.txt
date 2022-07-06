@@ -4,3 +4,5 @@ npm i uuid
 - Cài đặt: npm i redux-devtools-extension
 - Cài đặt: npm i reselect@4.1.5 (sau này cài Toolkit thì ko phải cài packet này
 vì đã tích hợp trong Toolkit)
+
+--1phut 39

@@ -52,7 +52,12 @@ export default function TodoList() {
         <Todo name='Learn JavaScript' prioriry='Low' /> */}
         {/* Không hardcode, cần load dữ liệu từ store */}
         {todoList.map(todo =>
-          <Todo key={todo.id} name={todo.name} prioriry={todo.prioriry} />
+          <Todo
+            key={todo.id}
+            name={todo.name}
+            prioriry={todo.prioriry}
+            completed={todo.completed}
+          />
         )}
       </Col>
       <Col span={24}>
