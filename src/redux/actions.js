@@ -17,6 +17,13 @@ export const addTodo = (data) => {
     }
 }
 
+export const toggleTodoStatus = (todoId) => {
+    return {
+        type: 'todoList/toggleTodoStatus',
+        payLoad: todoId
+    }
+}
+
 //Tạo ra action để cập nhật state filter trong store chung
 export const searchFilterChange = (text) => {
     return {
